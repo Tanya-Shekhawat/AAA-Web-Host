@@ -1,0 +1,4 @@
+Bundle-Name: AAACustomerProtlet
+Bundle-SymbolicName: com.lithan.aaa
+Bundle-Version: 1.0.0
+Export-Package: com.lithan.aaa.constants

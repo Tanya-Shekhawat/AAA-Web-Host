@@ -1,0 +1,10 @@
+Bundle-Name: TanyaServices-api
+Bundle-SymbolicName: TanyaServices.api
+Bundle-Version: 1.0.0
+Export-Package:\
+	TanyaServices.exception,\
+	TanyaServices.model,\
+	TanyaServices.service,\
+	TanyaServices.service.persistence
+-check: EXPORTS
+-includeresource: META-INF/service.xml=../TanyaServices-service/service.xml

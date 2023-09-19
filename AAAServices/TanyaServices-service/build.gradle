@@ -1,0 +1,11 @@
+dependencies {
+	compile project(":modules:TanyaServices:TanyaServices-api")
+
+	compileOnly group: "com.liferay.portal", name: "release.portal.api"
+}
+
+buildService {
+	apiDir = "../TanyaServices-api/src/main/java"
+}
+
+group = "TanyaServices"

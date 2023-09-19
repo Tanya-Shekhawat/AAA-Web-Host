@@ -1,0 +1,4 @@
+Bundle-Name: TanyaPortlet
+Bundle-SymbolicName: TanyaPortlet
+Bundle-Version: 1.0.0
+Export-Package: TanyaPortlet.constants
